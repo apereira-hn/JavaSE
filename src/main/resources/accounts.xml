@@ -1,0 +1,15 @@
+<accounts>
+    <account type="SavingsAccount">
+        <label>Savings Account for Client 1</label>
+        <client>
+            <clientNumber>1</clientNumber>
+        </client>
+    </account>
+    <account type="CurrentAccount">
+        <label>Current Account for Client 1</label>
+        <client>
+            <clientNumber>1</clientNumber>
+        </client>
+    </account>
+</accounts>
+

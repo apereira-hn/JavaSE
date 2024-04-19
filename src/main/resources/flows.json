@@ -1,0 +1,30 @@
+[
+ {
+    "type": "Debit",
+    "comment": "Debit from account 1",
+    "identifier": "Debit1",
+    "amount": 50,
+    "targetAccountNumber": 1,
+    "effect": true,
+    "dateOfFlow": "2022-02-22"
+ },
+ {
+    "type": "Credit",
+    "comment": "Credit to current account",
+    "identifier": "CreditCurrent2",
+    "amount": 100.50,
+    "targetAccountNumber": 2,
+    "effect": true,
+    "dateOfFlow": "2022-02-22"
+ },
+ {
+    "type": "Transfer",
+    "comment": "Transfer from account 1 to account 2",
+    "identifier": "Transfer1to2",
+    "amount": 50,
+    "targetAccountNumber": 2,
+    "effect": true,
+    "dateOfFlow": "2022-02-22",
+	"issuingAccountNumber": 1
+ }
+]
